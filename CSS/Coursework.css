@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.heading{
+    background-color: green;
+    padding: 12px;
+    color: antiquewhite;
+    text-align: center;
+    font-family: "comic sans ms",Arial;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 70;
+    height: 70;
+    border:s solid white;
+    border-radius: 50%;
+}
+navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.list{
+    display: flex;
+    width: 50%;
+}
+.leftnav li{
+    list-style: none;
+    padding: 10px;
+}
+
+.leftnav li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+   padding: 10px;
+    font-family: "comic sans ms",arial;
+}
+
+.leftnav li a:hover{
+    background-color: green;
+    color: powderblue;
+    font-style: italic;
+    text-decoration: none;
+}
+.rightnav{
+    text-align: right;
+}
+
+#search{
+    border: 2px solid pink;
+    border-radius: 12px;
+}
+
+.BTN{
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 20px;
+    background-color: green;
+    color: #f2f2f2;;
+}
+.bgimage{
+    background: rgb(0, 1, rgb(87, 175, 35))
+     url(../images/Forestimage.jpg);
+     background-size: cover;
+     background-blend-mode: darken;
+    
+}
