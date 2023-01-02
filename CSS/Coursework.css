@@ -1,80 +1,134 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #f1f1f1;
 }
 
-.heading{
-    background-color: green;
+.heading {
     padding: 12px;
-    color: antiquewhite;
+    color: rgb(15, 43, 19);
     text-align: center;
-    font-family: "comic sans ms",Arial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.logo{
+
+.headimage {
+    background-blend-mode: normal;
+    background: white url(../images/headingimg.jpg);
+    background-size: cover;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.bgimage {
+    background: rgba(1, 1, 1, 0.51) url(../images/cutter1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.logo {
     display: flex;
     justify-content: center;
+    padding-left: 47px;
 }
-.logo img{
-    width: 70;
-    height: 70;
-    border:s solid white;
+
+.logo img {
+    width: 60;
+    height: 60;
     border-radius: 50%;
 }
-navbar{
+
+.list {
+
     display: flex;
-    justify-content: center;
-    background-color: black;
+    width: 70%;
 }
-.list{
-    display: flex;
-    width: 50%;
-}
-.leftnav li{
+
+.list li {
     list-style: none;
-    padding: 10px;
+    padding: 16px 28px;
 }
 
-.leftnav li a{
+.list li a {
+
     text-decoration: none;
-    text-align: center;
+    color: wheat;
+    font-family: "comic sans ms", arial;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.list li a:hover {
     color: white;
-   padding: 10px;
-    font-family: "comic sans ms",arial;
 }
 
-.leftnav li a:hover{
-    background-color: green;
-    color: powderblue;
-    font-style: italic;
-    text-decoration: none;
-}
-.rightnav{
+.rightnav {
+     margin-top: 14px;
+    width: 50%;
     text-align: right;
 }
 
-#search{
-    border: 2px solid pink;
-    border-radius: 12px;
+#search {
+    padding: 3px;
+    border: 0px solid pink;
+    border-radius: 5px;
 }
 
-.BTN{
+.BTN {
     font-weight: bold;
     border-radius: 10px;
 }
 
-footer{
+footer {
     padding: 20px;
     background-color: green;
-    color: #f2f2f2;;
+    color: #f2f2f2;
+    ;
 }
-.bgimage{
-    background: rgb(0, 1, rgb(87, 175, 35))
-     url(../images/Forestimage.jpg);
-     background-size: cover;
-     background-blend-mode: darken;
-    
+
+
+.body1 {
+    padding-top: 8px;
+    display: flex;
+}
+
+.bodyimg {
+    background: rgba(1, 1, 1, 0.5) url(../images/bgbody.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.bodypimg {
+width: 45%;
+
+opacity: 80%;
+border-radius: 30%;
+padding-left: 10px;
+}
+
+.slogan {
+    padding-top: 10%;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive,arial;
+    font-size: 40;
+    padding-left: 5%;
+    color: hotpink;
+}
+
+.form{
+display: flex;
+background: transparent;
+}
+
+.form h1{
+    width: 100%;
 }
